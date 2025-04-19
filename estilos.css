@@ -1,0 +1,47 @@
+body {
+    padding: 20px;
+    background-color: #f8f9fa;
+  }
+  
+  .form-section {
+    margin-bottom: 50px;
+  }
+  
+  @media (max-width: 768px) {
+    .form-section h2 {
+      text-align: center;
+    }
+  }
+  .contacto {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 0.6rem;
+    background-color: #182848;
+    color: white;
+}
+
+.redes-sociales img {
+    width: 30px;
+    margin: 0.5rem;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.redes-sociales img:hover {
+    transform: scale(1.1);
+}
+
+.redes-sociales alt{
+    color: #f9f9f9;
+}
+
+.footer {
+    text-align: center;
+    padding: 0.5rem;
+    background-color: #111;
+    color: white;
+}
+
+.cli{
+    padding-top: 3rem;
+}  
